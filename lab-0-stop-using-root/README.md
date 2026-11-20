@@ -33,7 +33,7 @@ CloudTrail also shows `CheckMfa` events at each admin sign-in, confirming MFA is
 
 - Stolen root password alone isn't enough to get in (MFA required)
 - No long-lived root access keys that could leak in code or files
-- Daily mistakes happen in an account that can be restricted, not in root
+- Everyday mistakes happen as an IAM user whose permissions can be limited, not as the all-powerful root user
 
 ---
 
