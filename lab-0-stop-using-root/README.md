@@ -18,8 +18,8 @@ The root user has unlimited power over an AWS account and can't be restricted by
 
 IAM Dashboard → Security recommendations: **0 issues**
 
-- ✅ Root user has MFA
-- ✅ Root user has no active access keys
+-  Root user has MFA
+-  Root user has no active access keys
 
 ![IAM security recommendations](screenshots/02-admin-user-mfa.png)
 
