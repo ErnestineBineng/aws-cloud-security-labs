@@ -87,7 +87,7 @@ aws s3 cp s3://ernestinelabportfolio1-bucket/scavenger-hunt.pdf ./download-test.
 | **Disabled** | ❌ `DisabledException`: "...key... is disabled" | ❌ `KMS.DisabledException` on `GetObject` |
 
 ![Encrypt works when enabled, fails when disabled](screenshots/06-cli-encrypt-enabled-disabled.png)
-![Download fails when the key is disabled](screenshots/07-cli-download-key-disabled.png)
+![Download fails when the key is disabled](07-cli-download-key-disabled.png)
 
 **Even the administrator couldn't read the data** once the key was disabled. The file stayed in the bucket, fully intact, but unreadable. After I re-enabled the key, access returned.
 
